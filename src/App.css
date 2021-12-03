@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.hide {
+  display:none;
+}
+
+.tips {
+  margin: 5px;
+}
+
+.tips input, .tips select {
+  margin: 5px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.tab {
+  border: 1px solid #c0c0c0;
+  margin: 20px auto;
+  width: 1000px;
+}
+
+.tab tr {
+  margin: 0;
+}
+.tab th, .tab td {
+  border: 1px solid #c0c0c0;
+  
+  padding: 10px;
+}
+
+.tab .header {
+  background-color: orangered;
+  color: white;
+}
+
+#id, #calories, #fat, #carbs, #protein, #iron {
+  text-align: center;
+}
