@@ -46,3 +46,13 @@ table {
 #id, #calories, #fat, #carbs, #protein, #iron {
   text-align: center;
 }
+
+
+.list, .tree {
+list-style: none;
+}
+
+.svgView {
+  width: 1em;
+  height: 1em;
+}
