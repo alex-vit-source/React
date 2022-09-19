@@ -200,7 +200,7 @@ function Tree() {
         <div>
             <ul className='list'>
 
-                {arrWithSub.map(writeArr)}
+                {arrWithSub.map(elem => writeArr(elem))}
             </ul>
         </div>
     );
